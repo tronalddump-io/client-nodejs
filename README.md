@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/tronalddump-io/client-nodejs.svg?branch=master)](https://travis-ci.org/tronalddump-io/client-nodejs)
+
 # Official tronalddump.io api client for node.js
 
 [Tronalddump.io](https://www.tronalddump.io) is a free api and web archive for the dumbest things Donald Trump has ever said ...

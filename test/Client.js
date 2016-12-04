@@ -25,7 +25,6 @@ describe(`${pkg.name}/Client`, () => {
             response = client.getQuote('VHKwB8crTte7--FqtIxq9A');
 
       response.then((res) => {
-          console.log(res);
         assert.isObject(res);
         done();
       });
