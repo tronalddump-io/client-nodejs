@@ -1,0 +1,44 @@
+{
+    "name": "tronalddump-io",
+    "version": "1.0.0",
+    "description": "tronalddump.io api client library for node.js returning promises.",
+    "main": "./src/Client.js",
+    "scripts": {
+        "eslint": "./node_modules/eslint/bin/eslint.js src/",
+        "test": "./node_modules/.bin/mocha test/*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com:tronalddump-io/client-nodejs.git"
+    },
+    "keywords": [
+        "tronald dump",
+        "tronald dump api",
+        "the tronald",
+        "donald trump"
+    ],
+    "author": {
+        "name": "Mathias Schilling",
+        "email": "m@matchilling.com",
+        "url": "https://www.matchilling.com"
+    },
+    "license": "GPL-3.0",
+    "bugs": {
+        "url": "https://github.com/tronalddump-io/client-nodejs/issues"
+    },
+    "homepage": "https://www.tronalddump.io/",
+    "devDependencies": {
+        "chai": "^3.5.0",
+        "eslint": "^3.10.2",
+        "eslint-config-matchilling": "^1.0",
+        "eslint-plugin-import": "^2.2.0",
+        "eslint-plugin-jsx-a11y": "^2.2.3",
+        "eslint-plugin-react": "^6.7.0",
+        "mocha": "^3.1.2"
+    },
+    "eslintConfig": {
+        "extends": [
+            "eslint-config-matchilling"
+        ]
+    }
+}
